@@ -12,7 +12,6 @@ As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
-Do intern, test, commit.
 Revise your own README generator.
 Do code in index.js to set up the inquirer part of this properly, test, commit.
 Do code in index.js to set up generating the html properly, test, commit.
@@ -31,17 +30,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ## Instructions
 
-* Create a command-line application that accepts accepts user input using the provided starter code.   
-  * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.
-    * The other three classes will extend `Employee`.      
-    * In addition to `Employee`'s properties and methods, `Engineer` will also have the following:
-      * `github`&mdash;GitHub username
-      * `getGithub()`
-      * `getRole()`&mdash;overridden to return `'Engineer'`
-    * In addition to `Employee`'s properties and methods, `Intern` will also have the following:
-      * `school`
-      * `getSchool()`
-      * `getRole()`&mdash;overridden to return `'Intern'`
+* Create a command-line application that accepts accepts user input using the provided starter code.     
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
   * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints. Phil added note: look at week 11 challenge for this.
     * When a user starts the application then they are prompted to enter the **team manager**’s:
