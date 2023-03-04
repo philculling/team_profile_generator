@@ -12,9 +12,7 @@ As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
-Check and finish these 4 functions.
-Run tests but don't worry too much if they fail.
-Commit.
+Double check number of parameters in employee again. When you reduced it to 3, the tests failed, but it wasn't clear if this was because you'd started but not finished the next section of code.
 Copy instructions for next section from below, complete, commit.
 Readme.
 
@@ -29,15 +27,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 ## Instructions
 
 * Create a command-line application that accepts accepts user input using the provided starter code.   
-  * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.     
-    * The first class is an `Employee` parent class with the following properties and methods:       
-      * `name`
-      * `id`
-      * `email`
-      * `getName()`
-      * `getId()`
-      * `getEmail()`
-      * `getRole()`&mdash;returns `'Employee'`     
+  * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.
     * The other three classes will extend `Employee`.      
     * In addition to `Employee`'s properties and methods, `Manager` will also have the following:
       * `officeNumber`
