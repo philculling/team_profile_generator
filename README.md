@@ -2,19 +2,24 @@
 Week 12 Challenge Team Profile Generator
 # Module 12 Object-Oriented Programming: Team Profile Generator
 
-Phil's to do list (see further down) and notes.
+NOTES
 The test files are done and you almost certainly don't need to change them.
-The files you will need to work on are the 4 files under Lib and index.js
 The render function that is referred to in the instructions is page-template.js.
-The one you will need to do most work on is employee.js as this is the most generic. The others will be relatively simple.
 Employee will have a maximum of 3 parameters / arguments: name, id and email. IGNORE THIS FOR THE MOMENT, YOU HAVE 4 AND EVERY TIME YOU REDUCE IT TO 3 THE TESTS FAIL! Not all 3 are needed in the tests, so don't let the different numbers in the tests put you off.
-As you go through, test everything one at a time. To test, run node index.js
+As you go through, test everything one at a time. To test the writing to html, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
-Revise your own README generator.
-Do code in index.js to set up the inquirer part of this properly, test, commit.
-Do code in index.js to set up generating the html properly, test, commit.
+TO DO LIST
+Do the .then part.
+Once you have finished the .then part, check that the naming
+is consistent with where it might be used in code
+that then gets sent to the html.
+
+Do code in index.js to set up generating the html properly, test, commit. I think this is done, BUT you may need to work out how to invoke the correct function that is in page-template.js and call it from within index.js.
+If sending it to html doesn't work, you will still want to test what you've done so far. So perhaps instead of generating html content, you could copy some code from last week and check the node aspect of this works by sending it to a practicereadme. Make sure to do a practise one so you don't over-write this one. If you still can't work it out, look for solutions online.
+Once you know that some sort of rendering is working (even if it's only to another readme generator), add the remaining questions for engineer and intern. You left these as you didn't know how to do it and didn't want to risk breaking the code.
+
 Readme outline. Maybe use generator?
 Screenshot.
 Set up proper link to screenshot.
@@ -32,7 +37,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 * Create a command-line application that accepts accepts user input using the provided starter code.     
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
-  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints. Phil added note: look at week 11 challenge for this.
+  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
     * When a user starts the application then they are prompted to enter the **team manager**’s:
       * Name
       * Employee ID
