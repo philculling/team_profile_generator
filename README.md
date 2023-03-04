@@ -7,14 +7,20 @@ The test files are done and you almost certainly don't need to change them.
 The files you will need to work on are the 4 files under Lib and index.js
 The render function that is referred to in the instructions is page-template.js.
 The one you will need to do most work on is employee.js as this is the most generic. The others will be relatively simple.
-Employee will have a maximum of 3 parameters / arguments: name, id and email. Not all 3 are needed in the tests, so don't let the different numbers in the tests put you off.
+Employee will have a maximum of 3 parameters / arguments: name, id and email. IGNORE THIS FOR THE MOMENT, YOU HAVE 4 AND EVERY TIME YOU REDUCE IT TO 3 THE TESTS FAIL! Not all 3 are needed in the tests, so don't let the different numbers in the tests put you off.
 As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
-Double check number of parameters in employee again. When you reduced it to 3, the tests failed, but it wasn't clear if this was because you'd started but not finished the next section of code.
-Copy instructions for next section from below, complete, commit.
-Readme.
+Check manager again. BCS mentions office number, was that in the original version of this README? Even if not, maybe you need to add it. Then test and commit again.
+Do intern, test, commit.
+Revise your own README generator.
+Do code in index.js to set up the inquirer part of this properly, test, commit.
+Do code in index.js to set up generating the html properly, test, commit.
+Readme outline. Maybe use generator?
+Screenshot.
+Set up proper link to screenshot.
+Check submission requirements.
 
 ## Your Task
 
@@ -29,9 +35,6 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 * Create a command-line application that accepts accepts user input using the provided starter code.   
   * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.
     * The other three classes will extend `Employee`.      
-    * In addition to `Employee`'s properties and methods, `Manager` will also have the following:
-      * `officeNumber`
-      * `getRole()`&mdash;overridden to return `'Manager'`
     * In addition to `Employee`'s properties and methods, `Engineer` will also have the following:
       * `github`&mdash;GitHub username
       * `getGithub()`
