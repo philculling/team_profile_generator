@@ -8,17 +8,19 @@ The files you will need to work on are the 4 files under Lib and index.js
 The render function that is referred to in the instructions is page-template.js.
 The one you will need to do most work on is employee.js as this is the most generic. The others will be relatively simple.
 Employee will have a maximum of 3 parameters / arguments: name, id and email. Not all 3 are needed in the tests, so don't let the different numbers in the tests put you off.
-You might need to create a gitignore file, but ignore (!) for now. If you do, you will need to add to it:
-node_modules
-.DS_Store and 
-package.json
 As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
-
-Expand this to do list, though don't waste time copying out stuff from below; maybe do it in snippets.
 You might need to create an output folder.
+
+Commit.
+Look at mini-project solution from week 11.
+Work out what should really go in the 4 functions within Employee:
+getName
+getId
+getEmail
+getRole
 Research YT solution though not likely to be as simple as last week, so only VERY briefly.
-Look at mini-project solution from week 11. Do this fairly early on, not necessarily right at the start though.
+Copy instructions for next section from below, complete, commit.
 
 
 ## Your Task
