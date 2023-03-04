@@ -12,16 +12,11 @@ As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
+Check and finish these 4 functions.
+Run tests but don't worry too much if they fail.
 Commit.
-Look at mini-project solution from week 11.
-Work out what should really go in the 4 functions within Employee:
-getName
-getId
-getEmail
-getRole
-Research YT solution though not likely to be as simple as last week, so only VERY briefly.
 Copy instructions for next section from below, complete, commit.
-
+Readme.
 
 ## Your Task
 
@@ -56,7 +51,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
       * `getSchool()`
       * `getRole()`&mdash;overridden to return `'Intern'`
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
-  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
+  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints. Phil added note: look at week 11 challenge for this.
     * When a user starts the application then they are prompted to enter the **team manager**’s:
       * Name
       * Employee ID
