@@ -2,8 +2,7 @@
 Week 12 Challenge Team Profile Generator
 # Module 12 Object-Oriented Programming: Team Profile Generator
 
-Phil's to do list!
-Write up Anthony notes.
+Phil's to do list (see further down) and notes.
 The test files are done and you almost certainly don't need to change them.
 The files you will need to work on are the 4 files under Lib and index.js
 The render function that is referred to in the instructions is page-template.js.
@@ -16,10 +15,6 @@ package.json
 As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 
-Get everything set up while you have access to Laura's help:
-Make sure you have inquirer and jest.
-Run the tests once. They will fail, that's not the point. The point is to make sure that you have installed what you need properly while you might need to ask Laura for help.
-COMMIT AT THE END OF THE SESSION BEFORE SHUTTING DOWN.
 Expand this to do list, though don't waste time copying out stuff from below; maybe do it in snippets.
 You might need to create an output folder.
 Research YT solution though not likely to be as simple as last week, so only VERY briefly.
