@@ -12,7 +12,6 @@ As you go through, test everything one at a time. To test, run node index.js
 Use the tests to help, not intimidate! If the tests will work, your code will work. This is a good thing!
 You might need to create an output folder.
 
-Check manager again. BCS mentions office number, was that in the original version of this README? Even if not, maybe you need to add it. Then test and commit again.
 Do intern, test, commit.
 Revise your own README generator.
 Do code in index.js to set up the inquirer part of this properly, test, commit.
