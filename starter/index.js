@@ -18,7 +18,7 @@ inquirer.prompt(
         {
             type: 'input',
             message: "Name of team manager?",
-            name: "manager",
+            name: "name",
         },
         {
             type: "input",
@@ -38,8 +38,16 @@ inquirer.prompt(
         {
             type: 'list',
             message: "Would you like to",
-            name: "choose next team member",
+            name: "nextMember",
             choices: ['add an engineer?', 'add an intern?', 'finish creating your team?'],
         },
     ]
-)
+).then(({
+    name,
+    id,
+    email,
+    officeNumber,
+    nextMember
+}) => {
+    render();
+});

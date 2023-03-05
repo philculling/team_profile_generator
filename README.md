@@ -11,14 +11,10 @@ Use the tests to help, not intimidate! If the tests will work, your code will wo
 You might need to create an output folder.
 
 TO DO LIST
-Do the .then part.
-Once you have finished the .then part, check that the naming
-is consistent with where it might be used in code
-that then gets sent to the html.
-
-Do code in index.js to set up generating the html properly, test, commit. I think this is done, BUT you may need to work out how to invoke the correct function that is in page-template.js and call it from within index.js.
-If sending it to html doesn't work, you will still want to test what you've done so far. So perhaps instead of generating html content, you could copy some code from last week and check the node aspect of this works by sending it to a practicereadme. Make sure to do a practise one so you don't over-write this one. If you still can't work it out, look for solutions online.
-Once you know that some sort of rendering is working (even if it's only to another readme generator), add the remaining questions for engineer and intern. You left these as you didn't know how to do it and didn't want to risk breaking the code.
+Work out how to generateteam at the end of your inquirer prompt.
+Tests, commit.
+Work out how to add further inquirer options for engineer and intern.
+Tests, commit.
 
 Readme outline. Maybe use generator?
 Screenshot.
