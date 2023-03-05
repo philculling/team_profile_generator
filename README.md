@@ -11,16 +11,13 @@ Use the tests to help, not intimidate! If the tests will work, your code will wo
 You might need to create an output folder.
 
 TO DO LIST
-Run node, run tests.
-Commit even though it will fail.
-Tidy screenshot folder; delete all the accidental ones!
-Interrogate the tests.
-Screenshot.
-Interrogate the code.
+Screenshot: take and save.
+Interrogate last week's working code.
+Interrogate the github working code.
+Interrogate this code: what is different today that the other ones did correctly?
 
 Readme outline. Maybe use generator?
-Screenshot.
-Set up proper link to screenshot.
+Add screenshot with proper link.
 Check submission requirements.
 
 ## Your Task

@@ -5,21 +5,15 @@ class Manager extends Employee {
         constructor (name, email, id, officeNumber) {
             super (name, email, id);
             this.officeNumber = officeNumber;
-        }
+        };
         getRole() {
             this.role = "Manager";
             return this.role;
         };
+        getOfficeNumber() {
+            this.officeNumber = this.officeNumber;
+            return this.officeNumber;
+        }
     }
 
 module.exports = Manager;
-/* This is what you had before adding the constructor line.
-The test results are the same for both.
-class Manager extends Employee {
-    super(name, id, email){};
-    getRole() {
-        this.role = "Manager";
-        return this.role;
-    };
-}
-*/
