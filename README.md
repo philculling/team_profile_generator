@@ -11,10 +11,12 @@ Use the tests to help, not intimidate! If the tests will work, your code will wo
 You might need to create an output folder.
 
 TO DO LIST
-Work out how to generateteam at the end of your inquirer prompt.
-Tests, commit.
-Work out how to add further inquirer options for engineer and intern.
-Tests, commit.
+Run node, run tests.
+Commit even though it will fail.
+Tidy screenshot folder; delete all the accidental ones!
+Interrogate the tests.
+Screenshot.
+Interrogate the code.
 
 Readme outline. Maybe use generator?
 Screenshot.

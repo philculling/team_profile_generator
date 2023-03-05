@@ -42,7 +42,62 @@ inquirer.prompt(
             choices: ['add an engineer?', 'add an intern?', 'finish creating your team?'],
         },
     ]
-).then(({
+).then(answers => {
+    if (answers.choices === 'add an engineer?') {
+        inquirer.prompt(
+            [
+                {
+                    type: "input",
+                    message: "Name?",
+                    name: "name",
+                },
+                {
+                    type: "input",
+                    message: "Employee ID?",
+                    name: "id",
+                },
+                {
+                    type: "input",
+                    message: "Email address?",
+                    name: "email",
+                },
+                {
+                    type: "input",
+                    message: "Enter github name",
+                    name: "github",
+                }
+            ]
+        )
+    } else if (answers.choices === 'add an intern?') {
+        inquirer.prompt(
+            [
+                {
+                    type: "input",
+                    message: "Name?",
+                    name: "name",
+                },
+                {
+                    type: "input",
+                    message: "Employee ID?",
+                    name: "id",
+                },
+                {
+                    type: "input",
+                    message: "Email address?",
+                    name: "email",
+                },
+                {
+                    type: "input",
+                    message: "Enter name of school",
+                    name: "school",
+                }
+            ]
+        )
+
+    } else {
+        return;
+    }
+}).then(({
     name,
     id,
     email,
