@@ -14,7 +14,7 @@ const render = require("./src/page-template.js");
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
 //empty array to build team, gets passed into render function later
-const teamArr = [];
+const team = [];
 //function to add manager
 const addManager = () => {
     return (
@@ -48,7 +48,7 @@ inquirer.prompt(
         answers.email,
         answers.officeNumber
     );
-    teamArr.push(manager); 
+    team.push(manager); 
     addEmployee();
 })
 );
@@ -85,7 +85,7 @@ const addEngineer = () => {
                 answers.email,
                 answers.github
             );
-            teamArr.push(engineer);
+            team.push(engineer);
             addEmployee();
         })
     );
@@ -122,7 +122,7 @@ const addIntern = () => {
                 answers.email,
                 answers.school
             );
-            teamArr.push(intern);
+            team.push(intern);
             addEmployee();
         })
     );
@@ -147,7 +147,7 @@ const addEmployee = () => {
             addIntern();
             break;
         default:
-            render(teamArr);
+            render();
        }
     })
     );
