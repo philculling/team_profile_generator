@@ -20,7 +20,7 @@ When the user enters 'node index.js' a series of prompt questions is displayed o
 In the development of the app, I ran tests using "npm run test" after adapting the files Employee.js, Engineer.js, Intern.js and Manager.js Once these had passed I took a screenshot to show that this had been achieved. The screenshot is here:
 ![Screenshot](./team_profile_generator_screenshot.png)
 
-Once the user has completed answering all the questions, the team.html file is automatically generated.
+Once the user has completed answering all the questions, the team.html file is automatically generated within the output folder.
 
 ## License
 I selected the MIT license for this app.
@@ -33,25 +33,13 @@ Other developers are welcome to contribute. For this, I have included the Contri
 ![Contributor Covenant](https://www.contributor-covenant.org/)
 Developers wishing to report problems can email me on philculling@hotmail.com.
 
-END OF REAL README. Delete this line and everything below.
-
-NOTES
-The render function that is referred to in the instructions is page-template.js.
+## Credits
+Some help was received from AskBCS. Specifically, lines 156 to 159 were explained and suggested after I made a request for help to link index.js to the required output.
 
 TO DO LIST
-Try to work out the final part: linking to page-template and rendering the html.
-If it's not going to the team.html file in the output folder, you will need to adapt some of the README above.
-Check submission requirements.
-
-## Instructions
-  * Call the `render` function (provided for you) and pass in an array containing all employee objects; 
-    * The `render` function will generate and return a block of HTML including templated divs for each employee!
-  * Create an HTML file using the HTML returned from the `render` function. 
-    * Write it to a file named `team.html` in the `output` folder. 
-    * You can use the provided variable `outputPath` to target this location.
-
-## Hints  
-* You may need to check if the `output` folder exists and create it if it does not. Done, but does everything link ok?
+Commit.
+Check submission requirements. See below.
+Update this README to get rid of to do list notes!
 
 ## Review
 

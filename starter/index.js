@@ -1,4 +1,3 @@
-const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -147,11 +146,18 @@ const addEmployee = () => {
             addIntern();
             break;
         default:
-            render();
+            makeTeam();
        }
     })
     );
 };
+function makeTeam() {
+    // Create the output directory if the dist path doesn't exist
+    if (!fs.existsSync(OUTPUT_DIR)) {
+      fs.mkdirSync(OUTPUT_DIR);
+    }
+    fs.writeFileSync(outputPath, render(team), 'utf-8');
+  }
 
 function init() {
     addManager();
