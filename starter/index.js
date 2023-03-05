@@ -14,7 +14,7 @@ const render = require("./src/page-template.js");
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
 //empty array to build team, gets passed into render function later
-const team = [];
+const teamArr = [];
 //function to add manager
 const addManager = () => {
     return (
@@ -48,7 +48,7 @@ inquirer.prompt(
         answers.email,
         answers.officeNumber
     );
-    team.push(manager);
+    teamArr.push(manager); 
     addEmployee();
 })
 );
@@ -85,7 +85,7 @@ const addEngineer = () => {
                 answers.email,
                 answers.github
             );
-            team.push(engineer);
+            teamArr.push(engineer);
             addEmployee();
         })
     );
@@ -122,7 +122,7 @@ const addIntern = () => {
                 answers.email,
                 answers.school
             );
-            team.push(intern);
+            teamArr.push(intern);
             addEmployee();
         })
     );
@@ -135,7 +135,7 @@ const addEmployee = () => {
                 name: "employee",
                 type: "list",
                 message: "Please confirm if adding Engineer, Intern or if you have finished adding to the team.",
-                choices: ["Engineer", "Intern", "I have finished adding to the team,"],
+                choices: ["Engineer", "Intern", "I have finished adding to the team."],
             },
         ])
     .then((chosen) => {
@@ -147,18 +147,11 @@ const addEmployee = () => {
             addIntern();
             break;
         default:
-            startHtml();
+            render(teamArr);
        }
     })
     );
 };
-function startHtml() {
-    const dom = generateTeam(team);
-    fs.writeFile("index.html", dom, function (err) {
-        if (err) throw err;
-        console.log("Success!");
-    });
-}
 
 function init() {
     addManager();
