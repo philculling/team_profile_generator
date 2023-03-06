@@ -138,16 +138,15 @@ const addEmployee = () => {
             },
         ])
     .then((chosen) => {
-       switch (chosen.employee) {
-        case "Engineer":
+        if (chosen.employee === "Engineer") {
             addEngineer();
-            break;
-        case "Intern":
+        }
+        else if (chosen.employee === "Intern") {
             addIntern();
-            break;
-        default:
+        }
+        else {
             makeTeam();
-       }
+        }
     })
     );
 };

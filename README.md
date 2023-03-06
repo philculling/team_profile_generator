@@ -20,6 +20,9 @@ When the user enters 'node index.js' a series of prompt questions is displayed o
 In the development of the app, I ran tests using "npm run test" after adapting the files Employee.js, Engineer.js, Intern.js and Manager.js Once these had passed I took a screenshot to show that this had been achieved. The screenshot is here:
 ![Screenshot](./team_profile_generator_screenshot.png)
 
+Here is a screenshot of the generated html:
+![Screenshot](./generated_html.png)
+
 Once the user has completed answering all the questions, the team.html file is automatically generated within the output folder.
 
 ## License
