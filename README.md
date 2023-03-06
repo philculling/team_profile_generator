@@ -38,16 +38,3 @@ Developers wishing to report problems can email me on philculling@hotmail.com.
 
 ## Credits
 Some help was received from AskBCS. Specifically, lines 156 to 159 were explained and suggested after I made a request for help to link index.js to the required output.
-
-TO DO LIST
-Commit.
-Check submission requirements. See below.
-Update this README to get rid of to do list notes!
-
-## Review
-
-You are required to submit the following for review:
-
-* A sample HTML file generated using your application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
